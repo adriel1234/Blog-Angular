@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .container_big-card {
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+    }
+
+    .big-card__title > h1 {
+        font-size: 18px;
+    }
+
+    .big-card__photo > img {
+        min-width: 0;
+    }
+}

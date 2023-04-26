@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .container__small-card {
+        width: 100%; /* Define a largura para 100% para ocupar toda a largura do contêiner pai */
+        margin-bottom: 15px;
+        padding: 0 15px; /* Adiciona margem interna nos lados esquerdo e direito para espaço em telas menores */
+        box-sizing: border-box; /* Mantém a largura total do elemento, incluindo as margens internas */
+    }
+    
+    .container__small-card-content {
+        display: flex;
+        flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+    }
+    
+    .container__small-card-separator {
+        margin-top: 10px;
+    }
+    
+    .small-card__photo > img {
+        width: 100%; /* Define a largura da imagem para 100% para ocupar toda a largura do contêiner pai */
+        min-width: auto; /* Remove a largura mínima da imagem */
+        margin-right: 0; /* Remove a margem à direita da imagem */
+        margin-bottom: 10px; /* Adiciona margem inferior para separar a foto do título em telas menores */
+    }
+    
+    .small-card__title {
+        display: flex;
+        justify-content: flex-start; /* Alinha o título à esquerda em telas menores */
+        align-items: center;
+    }
+}
